@@ -3,6 +3,8 @@
 // @namespace    local.exh-cookie-pin
 // @version      1.1.0
 // @description  exhentai.org 쿠키를 저장해 둔 값으로 고정
+// @updateURL    https://github.com/starark957/exh-cookie-pin/releases/latest/download/exh-cookie-pin.user.js
+// @downloadURL  https://github.com/starark957/exh-cookie-pin/releases/latest/download/exh-cookie-pin.user.js
 // @match        https://exhentai.org/*
 // @run-at       document-start
 // @grant        none
