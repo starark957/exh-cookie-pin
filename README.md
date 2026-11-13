@@ -33,9 +33,9 @@ var PIN = {
 
 ### 설치하는 법
 
-Windows용 AdGuard에서 동작을 확인했습니다. 표준 유저스크립트 헤더만 사용하므로 다른 매니저에서도 동작할 것으로 보이지만 확인하지는 않았습니다.
+아래 유저 스크립트 매니저 중 하나에 설치합니다.
 
-- AdGuard for Windows (확인됨)
+- AdGuard for Windows
   1. 빠른 시작의 URL을 마우스 오른쪽 버튼으로 눌러 **다른 이름으로 링크 저장**으로 파일을 받습니다. [최신 릴리즈](https://github.com/starark957/exh-cookie-pin/releases/latest)의 첨부 파일도 같은 파일입니다.
   2. 받은 파일을 텍스트 편집기로 열어 `PIN`에 값 세 개를 채우고 저장합니다.
   3. AdGuard의 **확장 → 확장 프로그램 추가**에서 저장한 파일을 선택합니다.
@@ -43,17 +43,17 @@ Windows용 AdGuard에서 동작을 확인했습니다. 표준 유저스크립트
 
   HTTPS 필터링이 켜져 있어야 합니다. URL을 눌러 바로 설치하면 값이 비어 있는 스크립트가 설치되므로 반드시 값을 채운 파일로 설치하세요.
 
-- Violentmonkey, Tampermonkey (확인하지 않음)
-
-  <details>
-  <summary>브라우저 확장 매니저에 설치하기</summary>
-
-  1. 빠른 시작의 URL을 눌러 매니저의 설치 화면에서 설치합니다.
-  2. 매니저의 대시보드에서 ExH Cookie Pin의 편집 화면을 엽니다.
+- [Violentmonkey](https://violentmonkey.github.io/get-it/)
+  1. 빠른 시작의 URL을 눌러 Violentmonkey의 설치 화면에서 설치합니다.
+  2. Violentmonkey 대시보드에서 ExH Cookie Pin의 편집 화면을 엽니다.
   3. `PIN`에 값 세 개를 채우고 저장합니다.
   4. exhentai.org를 열어 둔 탭으로 돌아가 새로고침합니다.
 
-  </details>
+- [Tampermonkey](https://www.tampermonkey.net/)
+  1. 빠른 시작의 URL을 눌러 Tampermonkey의 설치 화면에서 설치합니다.
+  2. Tampermonkey 대시보드에서 ExH Cookie Pin의 편집 화면을 엽니다.
+  3. `PIN`에 값 세 개를 채우고 저장합니다.
+  4. exhentai.org를 열어 둔 탭으로 돌아가 새로고침합니다.
 
 ## 쿠키 값 확인
 
