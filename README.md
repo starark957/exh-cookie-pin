@@ -2,16 +2,13 @@
 
 [![jsDelivr Stats](https://data.jsdelivr.com/v1/package/gh/starark957/exh-cookie-pin/badge)](https://www.jsdelivr.com/package/gh/starark957/exh-cookie-pin)
 
-ExH Cookie Pin 유저스크립트는 exhentai.org 로그인 쿠키 세 개(`ipb_member_id`, `ipb_pass_hash`, `igneous`)를 미리 적어 둔 값으로 고정합니다.
+ExH Cookie Pin 유저 스크립트는 ExHentai 로그인 쿠키 세 개(`ipb_member_id`, `ipb_pass_hash`, `igneous`)를 미리 적어 둔 값으로 고정합니다.
 
-exhentai.org는 이 쿠키가 없거나 값이 어긋나면 빈 흰 페이지만 보여 줍니다. 이 스크립트는 페이지를 열 때마다 쿠키를 다시 써서, 쿠키가 만료되거나 다른 값으로 바뀌어도 접속이 유지되게 합니다.
-
-설치하거나 사용하다가 문제가 생기면 [GitHub Issues](https://github.com/starark957/exh-cookie-pin/issues)를 이용해 주세요.
+ExHentai는 이 쿠키가 없거나 값이 어긋나면 빈 흰 페이지만 보여 줍니다. 또한 유효한 igneous 쿠키를 가지고 있어도 주기적으로 쿠키가 만료되어 다시 로그인을 해야 하는 불편함이 있었습니다. 이 스크립트는 페이지를 열 때마다 쿠키를 다시 써서, 쿠키가 만료되거나 다른 값으로 바뀌어도 접속이 유지되게 합니다.
 
 > [!IMPORTANT]
 > 배포되는 스크립트에는 쿠키 값이 들어 있지 않습니다. 본인 계정의 값을 직접 채워야 동작합니다.
 >
-> 값을 채운 스크립트는 계정 로그인 정보와 같습니다. 다른 사람에게 보내거나 공개된 곳에 올리지 마세요. 이슈를 등록할 때도 값을 지운 뒤 붙여 넣으세요.
 
 ## 설치
 
@@ -70,7 +67,7 @@ Windows용 AdGuard에서 동작을 확인했습니다. 표준 유저스크립트
 
 평소에는 `https://exhentai.org`로 접속하면 됩니다.
 
-흰 빈 페이지가 뜨면 `https://exhentai.org/exh-pin`을 한 번 여세요. 이 주소는 404 페이지를 돌려주는데, 스크립트가 여기서 쿠키를 고친 뒤 메인으로 이동합니다. AdGuard는 내용이 없는 응답에 스크립트를 주입하지 못해서, 빈 페이지를 새로고침하는 것만으로는 복구되지 않습니다.
+흰 빈 페이지가 뜨면 `https://exhentai.org/exh-pin`을 한 번 여세요. 이 주소는 404 페이지를 돌려주는데, 스크립트가 여기서 쿠키를 고친 뒤 메인으로 이동합니다.
 
 ## 업데이트
 
