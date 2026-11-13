@@ -35,7 +35,12 @@ Windows용 AdGuard(HTTPS 필터링 켜짐)에서 동작을 확인했습니다. �
 
 ## 설치
 
-1. [최신 릴리즈](https://github.com/starark957/exh-cookie-pin/releases/latest)에서 `exh-cookie-pin.user.js`를 받습니다.
+1. `exh-cookie-pin.user.js`를 받습니다. [최신 릴리즈](https://github.com/starark957/exh-cookie-pin/releases/latest)의 첨부 파일과 아래 주소의 파일은 같습니다.
+
+   ```
+   https://cdn.jsdelivr.net/gh/starark957/exh-cookie-pin@latest/exh-cookie-pin.user.js
+   ```
+
 2. 텍스트 편집기로 열어 `PIN`에 값 세 개를 채웁니다.
 
    ```js
@@ -49,7 +54,7 @@ Windows용 AdGuard(HTTPS 필터링 켜짐)에서 동작을 확인했습니다. �
 3. 값을 채운 파일을 유저스크립트 매니저에 설치합니다.
    - AdGuard: **확장 → 확장 프로그램 추가**에서 파일을 선택합니다. HTTPS 필터링이 켜져 있어야 합니다.
 
-릴리즈 주소로 바로 설치하면 값이 비어 있는 스크립트가 설치되어 아무것도 하지 않습니다. 반드시 값을 채운 파일로 설치하세요.
+위 주소를 매니저에 그대로 넣어 설치하면 값이 비어 있는 스크립트가 설치되어 아무것도 하지 않습니다. 반드시 값을 채운 파일로 설치하세요.
 
 ## 사용
 
@@ -59,13 +64,14 @@ Windows용 AdGuard(HTTPS 필터링 켜짐)에서 동작을 확인했습니다. �
 
 ## 업데이트
 
-스크립트 헤더의 `@updateURL`은 최신 릴리즈의 첨부 파일을 가리킵니다.
+스크립트 헤더의 `@updateURL`은 [jsDelivr](https://www.jsdelivr.com/)를 거쳐 이 저장소에서 가장 높은 버전 태그의 파일을 가리킵니다.
 
 ```
-https://github.com/starark957/exh-cookie-pin/releases/latest/download/exh-cookie-pin.user.js
+https://cdn.jsdelivr.net/gh/starark957/exh-cookie-pin@latest/exh-cookie-pin.user.js
 ```
 
-새 버전이 릴리즈되면 매니저가 설치된 사본을 릴리즈 파일로 교체하고, 이때 채워 둔 값이 지워집니다. 업데이트된 뒤에는 새 파일에 값을 다시 채워 설치해야 합니다.
+- 새 버전이 나오면 매니저가 설치된 사본을 새 파일로 교체하고, 이때 채워 둔 값이 지워집니다. 업데이트된 뒤에는 새 파일에 값을 다시 채워 설치해야 합니다.
+- jsDelivr가 파일을 캐시하므로 새 버전이 이 주소에 반영되기까지 시간이 걸릴 수 있습니다.
 
 ## 주의
 

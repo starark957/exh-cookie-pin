@@ -1,10 +1,14 @@
 // ==UserScript==
 // @name         ExH Cookie Pin
-// @namespace    local.exh-cookie-pin
-// @version      1.1.0
+// @namespace    https://github.com/starark957/exh-cookie-pin
+// @version      1.0.0
 // @description  exhentai.org 쿠키를 저장해 둔 값으로 고정
-// @updateURL    https://github.com/starark957/exh-cookie-pin/releases/latest/download/exh-cookie-pin.user.js
-// @downloadURL  https://github.com/starark957/exh-cookie-pin/releases/latest/download/exh-cookie-pin.user.js
+// @author       starark957
+// @license      MIT
+// @homepageURL  https://github.com/starark957/exh-cookie-pin
+// @supportURL   https://github.com/starark957/exh-cookie-pin/issues
+// @updateURL    https://cdn.jsdelivr.net/gh/starark957/exh-cookie-pin@latest/exh-cookie-pin.user.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/starark957/exh-cookie-pin@latest/exh-cookie-pin.user.js
 // @match        https://exhentai.org/*
 // @run-at       document-start
 // @grant        none
@@ -12,11 +16,13 @@
 (function () {
   "use strict";
 
+  // 본인 계정의 쿠키 값을 채운다. 확인 방법은 README 참고.
+  // 값을 채운 파일은 로그인 정보와 같으므로 공유하지 않는다.
   var PIN = {
     ipb_member_id: "",
     ipb_pass_hash: "",
     igneous: "",
-    // , sk:       '값'   // 필요하면 주석 해제
+    // sk: "값", // 필요하면 주석을 풀고 값을 채운다
   };
 
   function get(name) {
