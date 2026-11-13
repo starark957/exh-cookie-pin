@@ -43,13 +43,13 @@ var PIN = {
 
   HTTPS 필터링이 켜져 있어야 합니다. URL을 눌러 바로 설치하면 값이 비어 있는 스크립트가 설치되므로 반드시 값을 채운 파일로 설치하세요.
 
-- [Violentmonkey](https://violentmonkey.github.io/get-it/)
+- Violentmonkey
   1. 빠른 시작의 URL을 눌러 Violentmonkey의 설치 화면에서 설치합니다.
   2. Violentmonkey 대시보드에서 ExH Cookie Pin의 편집 화면을 엽니다.
   3. `PIN`에 값 세 개를 채우고 저장합니다.
   4. exhentai.org를 열어 둔 탭으로 돌아가 새로고침합니다.
 
-- [Tampermonkey](https://www.tampermonkey.net/)
+- Tampermonkey
   1. 빠른 시작의 URL을 눌러 Tampermonkey의 설치 화면에서 설치합니다.
   2. Tampermonkey 대시보드에서 ExH Cookie Pin의 편집 화면을 엽니다.
   3. `PIN`에 값 세 개를 채우고 저장합니다.
