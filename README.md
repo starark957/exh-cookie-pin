@@ -72,3 +72,7 @@ https://github.com/starark957/exh-cookie-pin/releases/latest/download/exh-cookie
 - 값을 채운 파일은 계정 로그인 정보와 같습니다. 다른 사람에게 보내거나 공개된 곳에 올리지 마세요. 이슈를 등록할 때도 값을 지운 뒤 붙여 넣으세요.
 - 비밀번호를 바꾸거나 다시 로그인해서 쿠키 값이 달라지면, 새 값을 채운 파일로 다시 설치해야 합니다.
 - 비공식 스크립트이며 E-Hentai와 관련이 없습니다.
+
+## 라이선스
+
+[MIT](LICENSE)
